@@ -6,6 +6,6 @@ export class NgrxAngularPage {
   }
 
   getParagraphText() {
-    return element(by.css('-myApp-root h1')).getText();
+    return element(by.css('myapp-root h1')).getText();
   }
 }

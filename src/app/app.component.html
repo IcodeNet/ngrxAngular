@@ -1,3 +1,6 @@
 <h1>
-  {{title}}
+ <button (click)="click$.next()" >  Update </button>
+
+
+  {{clock | async | date: 'y MMMM EEE j:m:s'}}
 </h1>
